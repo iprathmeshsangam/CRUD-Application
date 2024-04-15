@@ -1,0 +1,31 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.FormContainer{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+}
+label {
+    margin-right: 5px;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: lightgray;
+}
+table thead{
+    background-color: black;
+    color: #fff;
+}
+
+button {
+    color: #fff;
+    padding: 8px 12px;
+}
